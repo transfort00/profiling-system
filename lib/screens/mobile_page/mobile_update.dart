@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:test_project/screens/mobile_page/mobile_Dashboard.dart';
 import 'package:test_project/screens/mobile_page/mobile_home.dart';
-import 'package:test_project/screens/mobile_page/mobile_update.dart';
 
-class mobileView extends StatefulWidget {
+class mobileUpdate extends StatefulWidget {
   @override
-  State<mobileView> createState() => _mobileViewState();
+  State<mobileUpdate> createState() => _mobileUpdateState();
 }
 
-class _mobileViewState extends State<mobileView> {
+class _mobileUpdateState extends State<mobileUpdate> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,9 +29,7 @@ class _mobileViewState extends State<mobileView> {
           ),
           IconButton(
             icon: Icon(Icons.notification_important),
-            onPressed: () {
-              setState(() {});
-            },
+            onPressed: () {},
           ),
         ],
       ),
@@ -68,6 +65,7 @@ class _mobileViewState extends State<mobileView> {
           ],
         ),
       ),
+      body: Text('Mobile View Update'),
     );
   }
 }
