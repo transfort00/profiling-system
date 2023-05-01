@@ -13,7 +13,7 @@ class _mobileUpdateState extends State<mobileUpdate> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text('Matina'),
+        title: Text('Matina crossing'),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.medical_information),
